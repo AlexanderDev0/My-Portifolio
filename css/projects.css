@@ -1,0 +1,30 @@
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  background: #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-buttons button.active {
+  background: #333;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 15px;
+  background: #f1f1f1;
+  border-radius: 8px;
+  min-width: 150px;
+}
