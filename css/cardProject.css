@@ -12,13 +12,14 @@
     flex-direction: column;
     justify-content: space-between;
     border-radius: 0.75rem;
-    border: 1px solid rgba(255, 255, 255, 0.125)   ;
+    border: 1px solid rgba(255, 255, 255, 0.125);
     background-color: rgba(255, 255, 255, 0.041);
     width: 300px;
     height: 370px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1),
         0 2px 4px -2px rgba(0, 0, 0, .1);
 }
+
 .card:hover {
     box-shadow: 0px 1px 5px 1px #5abef873;
 }
@@ -30,11 +31,17 @@
     margin-left: 1rem;
     margin-right: 1rem;
     border-radius: 0.75rem;
-    background-image: url('../assets/Projects/NCS.png');
+    background: linear-gradient(to right, hsla(199, 99%, 65%, 0.486), #034fc2ad);
     background-size: cover;
     background-position: center;
-    box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4);
     height: 10rem;
+}
+
+.header img {
+
+    border-radius: 0.75rem;
+    width: 100%;
+    height: 100%;
 }
 
 .info {
@@ -76,92 +83,95 @@
 
 
 
-/* From Uiverse.io by ilkhoeri */ 
+/* From Uiverse.io by ilkhoeri */
 .button-deployed {
-  width: 120px;
-  height: 35px;
-  background: none;
-  border: none;
+    width: 120px;
+    height: 35px;
+    background: none;
+    border: none;
 }
 
 .fold {
-  z-index: 1;
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 1rem;
-  width: 1rem;
-  display: inline-block;
-  
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+
 }
 
 .inner {
-  z-index: 2;
-  gap: 6px;
-  position: relative;
-  width: 100%;
-  color: rgb(252, 252, 252);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 1.5;
-  transition: color 0.2s ease-in-out;
+    z-index: 2;
+    gap: 6px;
+    position: relative;
+    width: 100%;
+    color: rgb(252, 252, 252);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
+    transition: color 0.2s ease-in-out;
 }
-.inner:hover{
-    color:#03f4fc
+
+.inner:hover {
+    color: #03f4fc
 }
 
 .inner svg.icon {
-  width: 18px;
-  height: 18px;
-  transition: fill 0.1s linear;
+    width: 18px;
+    height: 18px;
+    transition: fill 0.1s linear;
 }
 
 .button-deployed:focus svg.icon {
-  fill: rgb(2, 186, 241);
-}
-.button-deployed:hover svg.icon {
-  fill: transparent;
-  animation:
-    dasharray 1s linear forwards,
-    filled 0.1s linear forwards 0.95s;
-    color: #03f4fc;
-}
-@keyframes dasharray {
-  from {
-    stroke-dasharray: 0 0 0 0;
-  }
-  to {
-    stroke-dasharray: 68 68 0 0;
-  }
-}
-@keyframes filled {
-  to {
-    fill: rgb(5, 239, 247);
-  }
+    fill: rgb(2, 186, 241);
 }
 
-/* From Uiverse.io by Creatlydev */ 
+.button-deployed:hover svg.icon {
+    fill: transparent;
+    animation:
+        dasharray 1s linear forwards,
+        filled 0.1s linear forwards 0.95s;
+    color: #03f4fc;
+}
+
+@keyframes dasharray {
+    from {
+        stroke-dasharray: 0 0 0 0;
+    }
+
+    to {
+        stroke-dasharray: 68 68 0 0;
+    }
+}
+
+@keyframes filled {
+    to {
+        fill: rgb(5, 239, 247);
+    }
+}
+
+/* From Uiverse.io by Creatlydev */
 .btn-github {
-  cursor: pointer;
-  display: flex;
-  gap: 0.5rem;
- 
-  place-content: center;
-  padding: 0.75rem 1rem;
-  font-size: 0.825rem;
-  background: none;
-  border: none;
-  color: #fff;
+    cursor: pointer;
+    display: flex;
+    gap: 0.5rem;
+
+    place-content: center;
+    padding: 0.75rem 1rem;
+    font-size: 0.825rem;
+    background: none;
+    border: none;
+    color: #fff;
 }
 
 .btn-github:hover {
-  
-  color: #03f4fc;
-  
- 
+
+    color: #03f4fc;
+
+
 }
-
-

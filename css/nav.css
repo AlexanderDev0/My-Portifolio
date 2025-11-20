@@ -1,16 +1,27 @@
 header {
+    display: block;
     padding: 10px 0;
     display: flex;
     align-items: center;
+    background-color: rgba(0, 255, 255, 0.055);
+    opacity: 70%;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+
 }
 
 header nav {
+    
+    font-family: "Numans";
     width: 100%;
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: space-between;
     padding: 0 50px;
+    
+   
 
 
 }
@@ -39,10 +50,11 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: #fdfdfd;
-    font-weight: 500;
+    font-size: 0.6rem;
 }
 header nav h3 {
+    text-decoration: none;
     margin: 0;
-    font-size: 1.5em;
+    font-size: 0.7rem;
     color: #fdfdfd;
 }

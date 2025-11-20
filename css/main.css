@@ -34,11 +34,11 @@ main {
   font-style: normal;
 }
 .show-portfolio-title{
-font-size: 12px;
+font-size: 0.7rem;
 color:hsl(199, 99%, 65%)
 }
 .show-portfolio-title2{
-    font-size: 12px;
+    font-size: 0.6rem;
 }
 .show-portfolio ul li h1{
     font-size: 2.3rem;

@@ -1,0 +1,28 @@
+footer{
+    width: 100%;
+   color: white;
+   font-family: "numans";
+}
+.footer{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
+.footer ul{
+    list-style: none;
+  
+}
+.footer a{
+    padding: 10px;
+    font-size: 0.7rem;
+    text-decoration: none;
+    color:white;
+}
+.footer a:hover{
+ 
+    color: aqua;
+}
