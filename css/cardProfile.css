@@ -1,9 +1,9 @@
 /* From Uiverse.io by pharmacist-sabot */ 
 /* --- Root Variables & Wrapper --- */
 .glitch-profile-wrapper {
-  --bg-color: #0d0d0d;
-  --primary-color: #00f2ea;
-  --secondary-color: #a855f7;
+  --bg-color: #070618fa;
+  --primary-color: #0099f2;
+  --secondary-color: #2845e7;
   --text-color: #e5e5e5;
   --font-family: "Fira Code", Consolas, "Courier New", Courier, monospace;
   --glitch-anim-duration: 0.4s;
@@ -21,7 +21,7 @@
   background-color: var(--bg-color);
   width: 19rem;
   border-radius: 1rem;
-  border: 1px solid rgba(0, 042, 234, 0.2);
+  border: 1px solid rgba(0, 43, 234, 0.253);
   box-shadow:
     0 0 1.5rem rgba(0, 042, 234, 0.1),
     inset 0 0 1rem rgba(0, 0, 0, 0.5);
@@ -34,11 +34,11 @@
   height: 3.5rem;
   background: linear-gradient(
       45deg,
-      rgba(0, 242, 234, 0.1),
-      rgba(13, 13, 13, 0.8)
+      rgba(0, 36, 242, 0.664),
+      rgba(9, 171, 247, 0.596)
     ),
-    radial-gradient(circle, rgba(168, 85, 247, 0.05) 0%, transparent 70%);
-  border-bottom: 1px solid rgba(0, 042, 234, 0.1);
+    radial-gradient(circle, rgba(85, 196, 247, 0.425) 0%, transparent 70%);
+  border-bottom: 1px solid rgba(0, 43, 234, 0.671);
 }
 
 /* --- Avatar --- */
@@ -119,7 +119,7 @@
   width: 100%;
   margin-top: auto;
   padding-top: 1rem;
-  border-top: 1px solid rgba(0, 042, 234, 0.2);
+  border-top: 1px solid rgba(0, 43, 234, 0.918);
   display: flex;
   justify-content: space-around;
 }
@@ -150,7 +150,8 @@
   margin-top: 1.1rem;
   padding: 0.7em 1em;
   background-color: transparent;
-  border: 2px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
   color: var(--primary-color);
   font-family: inherit;
   font-size: 0.9rem;
