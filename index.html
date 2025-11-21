@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AlexanderDev0</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/projects.css">
   <link rel="stylesheet" href="/css/nav.css">
@@ -22,17 +23,25 @@
 </head>
 
 <body>
-  <header>
-    <nav>
+<header class="navbar">
+  <div class="nav-content">
 
-      <h3>Alexander</h3>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <!-- Logo + Nome -->
+    <div class="nav-left">
+      <div class="nav-avatar">A</div>
+      <span class="nav-name">AlexanderDev0</span>
+    </div>
+
+    <!-- Links -->
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <i class="fa-solid fa-sun nav-icon"></i>
     </nav>
-  </header>
+
+  </div>
+</header>
   <main>
     <section id="show">
       <div class="show-portfolio">
@@ -94,6 +103,11 @@
         <div class="profile-buttons">
           <p>Student</p>
           <p>Developer</p>
+        </div>
+        <div class="end-c" >
+          <p class="end"><strong>Location:</strong> Santa Cecília</p>
+          <p class="end"><strong>Studies:</strong> Systems Analysis & Development</p>
+          <p class="end"><strong>Hobbies:</strong> Gym, Reading, Coding</p>
         </div>
       </div>
       <div class="about-full">
@@ -364,41 +378,72 @@
     </div>
   </section>
   <section id="contact">
-
+<div>
     <h2>Get in Touch</h2>
-    <div class="contact-buttons">
-      <button>Email</button>
-      <button>GitHub</button>
-      <button>Linkdln</button>
-    </div>
+  <div class="barra-degrad"></div>
+   <p>Have a project in mind? Let's talk!</p>
+
+ <div class="contact-container">
+
+  <div class="contact-card">
+    <i class="fa-solid fa-envelope"></i>
+    <h3>Email</h3>
+    <a href="www.gmail.com.br">alexandertra25@gmail.com</a>
+  </div>
+
+  <div class="contact-card">
+    <i class="fa-brands fa-linkedin"></i>
+    <h3>LinkedIn</h3>
+    <a href="https://www.linkedin.com/in/alexander-de-oliveria-castro-2baa371b5">linkedin.com/in/alexander</a>
+  </div>
+
+  <div class="contact-card">
+    <i class="fa-brands fa-github"></i>
+    <h3>GitHub</h3>
+    <a href="https://github.com/AlexanderDev0?tab=overview&from=2025-10-01&to=2025-10-31">github.com/AlexanderDev0</a>
+  </div>
+
+</div>
 
 
 
   </section>
-  <footer>
-    <div class="footer">
-      <div class="footer-one">
-        <h3>A</h3>
-        <h5>AlexanderDev0</h5>
-        <p>Full-Stack Developer - Infraestrucure Enthusiast</p>
-      </div>
+ <footer class="footer-footer">
+  <div class="footer-content">
+
+    <!-- Perfil -->
+    <div class="footer-profile">
+      <div class="footer-avatar">A</div>
       <div>
-        <h3>Quick Links</h3>
-        <ul>
-          <li class="links"><a href="#about">About</a></li>
-          <li class="links"><a href="#projects">Projects</a></li>
-          <li class="links"><a href="#contact">Contact</a></li>
-      </div>
-      <div>
-        <h3>Connect</h3>
-        <ul>
-          <li class="links"><a href="#">Email</a></li>
-          <li class="links"><a href="#">GitHub</a></li>
-          <li class="links"><a href="#">LinkedIn</a></li>
+        <h3>AlexanderDev0</h3>
+        <p>Full-Stack Developer • Infrastructure Enthusiast</p>
       </div>
     </div>
-    <div class="copiryght">© 2025 AlexanderDev0. All rights reserved.</div>
-  </footer>
+
+    <!-- Links rápidos -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Ícones -->
+    <div class="footer-connect">
+      <h4>Connect</h4>
+      <div class="footer-icons">
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="footer-copy">© 2025 AlexanderDev0. All rights reserved.</p>
+</footer>
 </body>
 
 <script src="/js/script.js"></script>

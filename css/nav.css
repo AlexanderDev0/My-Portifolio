@@ -1,60 +1,77 @@
-header {
-    display: block;
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-    background-color: rgba(0, 255, 255, 0.055);
-    opacity: 70%;
-    border-radius: 20px;
-    top: 0;
-    left: 0;
-
+/* Navbar */
+.navbar {
+    font-family: "numans";
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 13px 0;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: rgba(21, 26, 59, 0.192);
+  z-index: 1000;
 }
 
-header nav {
-    
-    font-family: "Numans";
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    justify-content: space-between;
-    padding: 0 50px;
-    
-   
-
-
+.nav-content {
+  width: 60%;
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    justify-content: flex-end;
-    align-items: center;
-    text-align: center;
-    color:#fdfdfd
+/* Avatar */
+.nav-avatar {
+  width: 28px;
+  height: 28px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  border-radius: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
 }
 
-header nav ul li {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 10px;
-    justify-content: start;
-    color:#fdfdfd
-    
-
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-header nav ul li a {
-    text-decoration: none;
-    color: #fdfdfd;
-    font-size: 0.6rem;
+.nav-name {
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
 }
-header nav h3 {
-    text-decoration: none;
-    margin: 0;
-    font-size: 0.7rem;
-    color: #fdfdfd;
+
+/* Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #d7d9e5;
+  font-size: 12px;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00c6ff;
+}
+
+/* Ícone */
+.nav-icon {
+  font-size: 18px;
+  color: #d7d9e5;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.nav-icon:hover {
+  color: #00c6ff;
 }
