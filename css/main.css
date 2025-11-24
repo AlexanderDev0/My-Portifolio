@@ -52,7 +52,54 @@ color:hsl(199, 99%, 65%)
   color: transparent;
   font-weight: bold;
 }
+.buttons-building {
+  display: flex;
+  gap: 15px;
+  padding-top: 2rem;
+}
 
+/* Botão azul com gradiente */
+.btn-primary {
+    font-family: "numans";
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  padding: 12px 28px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+/* Botão transparente com borda */
+.btn-outline {
+    font-family: "numans";
+  padding: 12px 28px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 11px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: 0.3s ease;
+}
+
+.btn-outline:hover {
+  border-color: #00c6ff;
+  color: #00c6ff;
+  transform: translateY(-1px);
+}
 /* about */
 
 #about{

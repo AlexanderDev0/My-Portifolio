@@ -8,8 +8,12 @@
     color: white;
     font-family: "numans";
 }
+#contact h2{
+    padding-bottom: 1rem;
+}
 
 #contact p {
+    padding-top: 1rem;
     font-size: 10px;
 }
 
